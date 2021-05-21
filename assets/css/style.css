@@ -1,1 +1,31 @@
 /* 239DBF celeste  */
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.bg-celeste {
+    background-color: #239DBF;
+}
+
+.bg-negro {
+    background-color: #000;
+}
+
+hr {
+    width: 1250px;
+    height: 1.5px;
+}
+
+@media (max-width: 576px){
+    hr {
+        width: 250px;
+        height: 1.5px;
+    }
+}
+
+/*seccion prsentacion*/
+#presentacion p{
+    text-align: left;
+}
+
+/* seccion destacados*/
