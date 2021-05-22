@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+    //smooth scroll
     $("a").click(function(event) {
         if (this.hash !== "") {
             event.preventDefault();
@@ -15,10 +15,11 @@ $(document).ready(function(){
         }
 
     });
-
+    //click para ocultar descripción seccion estacados
     $(".titulo-destacado").click(function(){
         $(".descripcion").toggle();
       });
 
+    //data toggle para tooltip de seccion destacados
     $('[data-toggle="popover"]').popover();
 });

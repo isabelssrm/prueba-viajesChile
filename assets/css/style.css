@@ -1,6 +1,7 @@
 /* 239DBF celeste  */
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: #000;
 }
 
 .bg-celeste {
@@ -12,7 +13,7 @@ body {
 }
 
 hr {
-    width: 1250px;
+    /*width: 1250px;*/
     height: 1.5px;
 }
 
