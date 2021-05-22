@@ -29,4 +29,10 @@ hr {
     text-align: left;
 }
 
-/* seccion destacados*/
+/* links footer*/
+
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
