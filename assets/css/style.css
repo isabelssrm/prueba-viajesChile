@@ -29,6 +29,10 @@ hr {
     text-align: left;
 }
 
+/*Modal title*/
+.modal-title {
+    color: #000;
+}
 /* links footer*/
 
 footer a{
